@@ -14,11 +14,13 @@ def load_messages():
 
 
 all_messages = load_messages()  # список всех сообщений в мессенджере
-count = 1
 
 
-# def messages_count():
-#     return count += 1
+@app.route("/message_count")
+def messages_count():
+    m_count = len(all_messages)
+    return {"counter": m_count}
+
 
 def save_messages():
     data = {
