@@ -1,6 +1,6 @@
-# Simple chat messenger
+# Simple chat messenger on Python 3
 
-# Project from Skill Box Python intensive
+# Project from skillbox.ru messenger on Python in 3 days intensive
 
 
 # Uses: 
